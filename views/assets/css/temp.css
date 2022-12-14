@@ -1,0 +1,7 @@
+.hello
+{
+    background :linear-gradient(-135deg, #c850c0, #4158d0);  
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 20px;
+}

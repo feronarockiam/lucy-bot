@@ -19,7 +19,7 @@ a {
 }
 
 .container{
-    max-width: 1024px;
+    max-width: 1224px;
     margin: auto;
 }
 
@@ -81,7 +81,7 @@ a {
 
 #site-main .container .box-nav > a{
     font-size: 1em;
-    padding: 1em 1em;
+    padding: 5em 1em;
 }
 
 #site-main .container form{
@@ -265,6 +265,7 @@ table{
     border-radius: 50%;
     background-color: inherit;
     margin-left: 10px;
+    flex: 1;
   }
 
 .tick:hover {
@@ -277,10 +278,18 @@ table{
     color: white;
     border-radius: 50%;
     background-color: inherit;
-    margin-left: 20px;
+    margin-left: 10px;
+ 
   }
 
 .cancel:hover {
   box-shadow: rgba(226, 13, 13, 0.35) 0 -25px 18px -14px inset,rgba(180, 39, 39, 0.25) 0 1px 2px,rgba(187, 44, 44, 0.25) 0 2px 4px,rgba(187, 44, 44, 0.25) 0 4px 8px,rgba(187, 44, 44, 0.25) 0 8px 16px,rgba(187, 44, 44, 0.25) 0 16px 32px;
   transform: scale(1.05) rotate(-1deg);
+}
+.table .tbody th{
+    display: flex;
+    flex-direction: row; 
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
